@@ -20,7 +20,7 @@ describe('nameIsValid function', () => {
 
 
 describe('fullTrim function', () => {
-  it('Удаление пробелов в начале ', () => {
+  it('Удаление пробелов в начале', () => {
     const result = fullTrim(' alex');
     expect(result).toBe('alex');
   })
