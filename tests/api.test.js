@@ -1,6 +1,6 @@
 
 describe('bookstore', () => {
-  it('Создание пользователя c ошибкой, логин уже используется', async () => {
+  it('Создание пользователя c ошибкой, пароль не подходит', async () => {
     const result = await fetch('https://bookstore.demoqa.com/Account/v1/User', {
         method: 'POST',
         headers: {'Content-Type': 'application/json' },
